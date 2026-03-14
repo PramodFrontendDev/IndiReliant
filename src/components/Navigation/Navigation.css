@@ -1,0 +1,14 @@
+.navigation ul{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  list-style: none;
+}
+.navigation a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}

@@ -1,7 +1,16 @@
+import Logo from "../Logo/Logo";
+import Navigation from "../Navigation/Navigation";
+import "./Header.css";
+
 const Header = () => {
   return (
-    <div className="header">
-      <h1>Indireliant</h1>
+    <div className="header-main">
+      <div className="container">
+        <div className="header">
+          <Logo />
+          <Navigation />
+        </div>
+      </div>
     </div>
   );
 };
