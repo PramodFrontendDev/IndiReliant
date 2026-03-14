@@ -1,2 +1,2 @@
 # IndiReliant
-Construction Company
+React Project
