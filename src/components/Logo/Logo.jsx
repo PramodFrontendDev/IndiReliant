@@ -1,7 +1,10 @@
+import logo from "../../assets/images/logo.png";
+import "./Logo.css";
+
 const Logo = () => {
   return (
     <div className="logo">
-      <h1>IndiReliant</h1>
+      <img src={logo} alt="Logo" />
     </div>
   );
 };
