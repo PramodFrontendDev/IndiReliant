@@ -1,0 +1,34 @@
+.projects-main {
+  width: 100%;
+  padding:20px;
+  background-color: #f0f0f0;
+  position: relative;
+}
+.projects-main img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.7;
+}
+.projects-main h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.projects-text h2 {       
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+.projects-text p {
+    font-size: 24px;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
