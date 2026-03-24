@@ -1,5 +1,6 @@
 import "./Footer.css";
 import Logo from "../Logo/Logo";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,25 +22,25 @@ const Footer = () => {
               <h3>Sectors</h3>
               <ul>
                 <li>
-                  <a href="">Service one</a>
+                  <Link to="/">Service one</Link>
                 </li>
                 <li>
-                  <a href="">Service one</a>{" "}
+                  <Link to="/">Service one</Link>{" "}
                 </li>
                 <li>
-                  <a href="">Service one</a>{" "}
+                  <Link to="/">Service one</Link>{" "}
                 </li>
                 <li>
-                  <a href="">Service one</a>{" "}
+                  <Link to="/">Service one</Link>{" "}
                 </li>
                 <li>
-                  <a href="">Service one</a>{" "}
+                  <Link to="/">Service one</Link>{" "}
                 </li>
                  <li>
-                  <a href="">Service one</a>{" "}
+                  <Link to="/">Service one</Link>{" "}
                 </li>
                  <li>
-                  <a href="">Service one</a>{" "}
+                  <Link to="/">Service one</Link>{" "}
                 </li>
               </ul>
             </div>
@@ -47,19 +48,19 @@ const Footer = () => {
               <h3>Quick Links</h3>
               <ul>
                 <li>
-                  <a href="">Instagram</a>
+                  <Link to="/">Instagram</Link>
                 </li>
                 <li>
-                  <a href="">Linkin</a>
+                  <Link to="/">Linkin</Link>
                 </li>
                 <li>
-                  <a href="">Facebook</a>
+                  <Link to="/">Facebook</Link>
                 </li>
                 <li>
-                  <a href="">Reddit</a>
+                  <Link to="/">Reddit</Link>
                 </li>
                 <li>
-                  <a href="">Contact Us </a>
+                  <Link to="/">Contact Us </Link>
                 </li>
               </ul>
             </div>
