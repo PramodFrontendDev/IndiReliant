@@ -1,2 +1,2 @@
 # IndiReliant
-React Project
+Go to development branch for get latest code.
