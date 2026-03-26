@@ -4,8 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "./Banner.css";
-// import bannerImage from "../../assets/images/banner.jpg";
-
+import banner from "../../assets/images/banner.jpg";
+import banner1 from "../../assets/images/banner1.jpg";
+import banner2 from "../../assets/images/banner2.jpg";
+import banner3 from "../../assets/images/banner3.jpg";
+import banner4 from "../../assets/images/banner4.jpg";
+import banner5 from "../../assets/images/banner5.jpg";
 
 const Banner = () => {
   var settings = {
@@ -21,14 +25,21 @@ const Banner = () => {
     <div className="banner-main">
       <Slider {...settings}>
       <div>
-        <h3>1</h3>
+        <div className="slider-img">
+          <img src={banner1} alt="Banner 1" />
+        </div>
       </div>
-      <div>
-        <h3>2</h3>
+       <div>
+        <div className="slider-img">
+          <img src={banner} alt="Banner 1" />
+        </div>
       </div>
-      <div>
-        <h3>3</h3>
+       <div>
+        <div className="slider-img">
+          <img src={banner4} alt="Banner 1" />
+        </div>
       </div>
+   
     </Slider>
       {/* <img src={bannerImage} alt="Banner" />
 
