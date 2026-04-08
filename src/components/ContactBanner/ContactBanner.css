@@ -1,0 +1,21 @@
+#contact-banner-main {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.contact-banner {
+    width: 100%;
+    height: 350px;
+}
+.contact-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact-heading {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
