@@ -17,5 +17,29 @@
     width: 100%;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     left: 0;
+}
+.contact-heading .heading h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+.contact-heading .heading ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+.contact-heading .heading ul li a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.contact-heading .heading ul li svg {
+    width: 20px;
+    height: 20px;
+}
+.contact-heading .heading ul li svg path {
+    color: white;
+    fill: white;
 }
