@@ -27,16 +27,28 @@ const Banner = () => {
       <div>
         <div className="slider-img">
           <img src={banner1} alt="Banner 1" />
+          <div className="banner-text">
+            <h1>Welcome to Indi Reliant</h1>
+            <p>Your reliable partner for all your needs.</p>
+          </div> 
         </div>
       </div>
        <div>
         <div className="slider-img">
           <img src={banner} alt="Banner 1" />
+          <div className="banner-text">
+            <h1>Welcome to Indi Reliant</h1>
+            <p>Your reliable partner for all your needs.</p>
+          </div> 
         </div>
       </div>
        <div>
         <div className="slider-img">
           <img src={banner4} alt="Banner 1" />
+          <div className="banner-text">
+            <h1>Welcome to Indi Reliant</h1>
+            <p>Your reliable partner for all your needs.</p>
+          </div> 
         </div>
       </div>
    
